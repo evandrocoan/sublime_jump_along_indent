@@ -1,0 +1,36 @@
+[
+    { "keys": ["alt+up"], "command": "jump_prev_indent", "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }
+        ]
+    },
+    { "keys": ["alt+down"], "command": "jump_next_indent", "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }
+        ]
+    },
+
+    // Only extend the selection when there is already a selection placed, otherwise do nothing
+    { "keys": ["alt+up"], "command": "jump_prev_indent", "args": { "extend_selection": true}, "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
+        ]
+    },
+    { "keys": ["alt+down"], "command": "jump_next_indent", "args": { "extend_selection": true}, "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
+        ]
+    },
+
+    // Only extend the selection when there is already a selection placed, otherwise do nothing
+    { "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true}, "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
+        ]
+    },
+    { "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true}, "context":
+        [
+            { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
+        ]
+    },
+]
