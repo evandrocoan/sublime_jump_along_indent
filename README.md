@@ -33,19 +33,28 @@ You can also use the `indent_offset` option to jump to a more or less-indented l
 
 ![Before jumping up and out](https://s3.amazonaws.com/mwean-github/sublime_jump_along_indent/pre_jump_out.png) → ![After jumping up and out](https://s3.amazonaws.com/mwean-github/sublime_jump_along_indent/post_jump_out.png)
 
-## Installation ##
 
-### Using Package Control ###
-  - Select "Package Control: Install Package" from the Command Palette
-  - Search for "Jump Along Indent"
+## Installation
 
-### Using Git ###
-  - Clone the repository in your Sublime Text Packages directory:
-  - `git clone https://github.com/mwean/sublime_jump_along_indent.git /path/to/sublime/packages`
+### By Package Control
 
-### Not Using Git ###
-  - [Download code archive](https://github.com/mwean/sublime_jump_along_indent/archive/master.zip)
-  - Unzip and move to Sublime Text packages folder
+1. Download & Install `Sublime Text 3` (https://www.sublimetext.com/3)
+1. Go to the menu `Tools -> Install Package Control`, then,
+   wait few seconds until the `Package Control` installation finishes
+1. Go to the menu `Preferences -> Package Control`
+1. Type `Package Control Add Channel` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, input the following address and press <kbd>Enter</kbd>
+   ```
+   https://raw.githubusercontent.com/evandrocoan/StudioChannel/master/channel.json
+   ```
+1. Now, go again to the menu `Preferences -> Package Control`
+1. This time type `Package Control Install Package` on the opened quick panel and press <kbd>Enter</kbd>
+1. Then, search for `JumpAlongIndent` and press <kbd>Enter</kbd>
+
+See also:
+1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
+1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
+
 
 ## Usage ##
 
