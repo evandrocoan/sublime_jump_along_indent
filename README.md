@@ -82,6 +82,7 @@ You can also use the `indent_offset` option to jump to a more or less-indented l
 search for **`JumpAlongIndent`** and press <kbd>Enter</kbd>
 
 See also:
+
 1. [ITE - Integrated Toolset Environment](https://github.com/evandrocoan/ITE)
 1. [Package control docs](https://packagecontrol.io/docs/usage) for details.
 
